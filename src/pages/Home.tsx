@@ -30,10 +30,7 @@ const Home: FC<HomeProps> = () => {
   }, []);
   return (
     <>
-      <Banner
-        imageUrl="/src/assets/IMG.png"
-        text="Chez vous, partout et ailleurs"
-      />
+      <Banner imageUrl="/IMG.png" text="Chez vous, partout et ailleurs" />
 
       <div className="cards-container">
         {accomodations.map((accomodation) => {

@@ -6,7 +6,7 @@ interface AboutProps {}
 const About: FC<AboutProps> = () => {
   return (
     <>
-      <Banner imageUrl="src/assets/about-banner.png" />
+      <Banner imageUrl="about-banner.png" />
       <div className="about-accordeon">
         <details className="details">
           <summary className="summary">

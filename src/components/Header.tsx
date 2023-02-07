@@ -7,7 +7,7 @@ const Header: FC<HeaderProps> = () => {
   return (
     <div className="header">
       <Link className="logo-container-header" to="/">
-        <img src="src/assets/LOGO.png" alt="" />
+        <img src="logoHeader.svg" alt="logo" style={{ width: "20vw" }} />
       </Link>
       <div>
         <NavLink className="navlink" to="/">

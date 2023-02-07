@@ -14,6 +14,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  a:hover {
+    text-decoration-line: underline;
+  }
 }
 
 .logo-container-header {
@@ -59,6 +62,7 @@
   margin-top: 1rem;
   display: flex;
   align-items: center;
+  justify-content: center;
   height: fit-content;
   width: 7vw;
 }
@@ -233,7 +237,7 @@
       background-size: contain;
       background-repeat: no-repeat;
       background-color: #00000000;
-      background-image: url("../assets/Vector-1.svg");
+      background-image: url("../../public/Vector-1.svg");
     }
   }
   .prev {
@@ -267,7 +271,7 @@
       background-size: contain;
       background-repeat: no-repeat;
       background-color: #00000000;
-      background-image: url("../assets/Vector.svg");
+      background-image: url("../../public/Vector.svg");
     }
   }
 }
@@ -344,7 +348,7 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-color: #00000000;
-        background-image: url("../assets/colorfulStar.svg");
+        background-image: url("../../public/colorfulStar.svg");
       }
       .gray-star {
         width: 1.5rem;
@@ -353,7 +357,7 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-color: #00000000;
-        background-image: url("../assets/grayStar.svg");
+        background-image: url("../../public/grayStar.svg");
       }
     }
   }
@@ -392,7 +396,7 @@ details {
     div {
       width: 20px;
       height: 20px;
-      background-image: url("../assets/Vector-1.svg");
+      background-image: url("../../public/Vector-1.svg");
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
