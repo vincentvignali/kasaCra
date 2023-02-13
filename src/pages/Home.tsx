@@ -36,6 +36,7 @@ const Home: FC<HomeProps> = () => {
         {accomodations.map((accomodation) => {
           return (
             <HomeCard
+              key={accomodation.id}
               id={accomodation.id}
               cover={accomodation.cover}
               title={accomodation.title}
